@@ -1,0 +1,121 @@
+/* Tablet: 768px */
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: aliceblue; 
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .an-episode{
+        flex-direction: row;
+        height: 300px;
+    }
+
+    .an-episode img {
+        height: 100%;
+        width: 40%;
+    }
+
+    .episode-detail{
+        height: 100%;
+        width: 60%;
+    }
+
+    footer{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .about-us,
+    .bottom-nav,
+    .subscribe{
+        flex-basis: 30%;
+        flex-grow: 1;
+    }
+
+    
+
+    
+
+}
+
+
+
+
+
+
+
+/* Laptop:  992px */
+@media only screen and (min-width: 992px) {
+    body {
+        /* background-color: lightblue; */
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+
+        justify-content: space-around;
+    }
+
+    nav ul li{
+        flex-grow: 1;
+        text-align: center;
+
+        transition: all 250ms;
+    }
+
+    nav ul li:hover {
+        flex-grow: 2;
+        border-bottom: 2px solid black;
+
+
+    }
+
+    nav{
+        flex-grow: 1;
+    }
+
+    .banner{
+        flex-direction: row;
+    }
+    .intro{
+        flex-basis:25%;
+    }
+
+    #content {
+        display: flex;
+    }
+
+    .podcaster {
+        width: 25%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Desktop: 1248px */
+@media only screen and (min-width: 1248px) {
+    body {
+        /* background-color: lightskyblue; */
+        width: 75%;
+        margin: 0 auto;
+    }
+
+}
